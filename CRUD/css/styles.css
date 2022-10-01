@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e2e8f0;
+  padding-bottom: 20px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.back-link-employee {
+  text-decoration: none;
+  color: #1e293b;
+}
+
+.employee-form {
+  background-color: #64748b;
+  color: rgba(255, 255, 255, 0.904);
+  width: 177px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.text-required {
+  font-size: 12px;
+  color: rgba(255, 0, 0, 0.952);
+}
+
+.employee-header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #64748b;
+  color: white;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link {
+  margin-right: 10px;
+}
+
+/* INDEX.PHP FILE */
+.table,
+td,
+th {
+  border: 1px solid black;
+  min-width: 90%;
+  margin: 0 auto;
+}
+
+.employee-list-container {
+  text-align: center;
+}
+
+.add-btn,
+.edit-btn,
+.delete-btn {
+  cursor: pointer;
+}
+
+.add-btn {
+  margin: 10px;
+}
+
+.edit-btn {
+  background-color: rgb(26, 154, 228);
+  border: none;
+  border-radius: 4px;
+  padding: 3px 5px;
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background-color: rgba(255, 0, 0, 0.575);
+  border: none;
+  border-radius: 4px;
+  padding: 3px 5px;
+  margin: 5px 0;
+}
+
+.no-employees-text {
+  margin-top: 10px;
+}
+
+/* NEW-EMPLOYEE.PHP */
+.btn-container {
+  text-align: center;
+}
+
+/* EMPLOYEE.PHP */
+.employee-container {
+  text-align: center;
+}
+
+.is-active-yes {
+  background-color: green;
+}
+
+.is-active-no {
+  background-color: red;
+}
+
+/* LOGIN.PHP */
+.credentials-invalid {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
